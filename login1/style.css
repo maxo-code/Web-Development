@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    
+    background: url("coffee9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.container{
+    width: 355px;
+    height: 480px;
+    margin: 8% 10%;
+    border: 3px solid white;
+    padding: 20px;
+    border-radius: 50px;
+    background-image: none;
+
+}
+.container:hover{
+    padding:21px;
+}
+img{
+    width: 70px;
+    height: 70px;
+    margin: 40px 130px;
+    border-radius: 10px;
+}
+img:hover{
+    padding:1px;
+    border: 2px solid black;
+}
+#forget{
+    color: white;
+    margin: 0px 120px;
+    cursor: pointer;
+}
+#forget:hover{
+    cursor: pointer;
+    color: cornflowerblue;
+}
+/* .logo{
+    width: 40px;
+    height: 50px;
+    border: 2px solid green;
+} */
+#username{
+    font-size: 19px;
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    background-color: black;
+    font-family:sans-serif;
+}
+#username:hover{
+    padding: 7px;
+    border: 2px solid white;
+}
+#password{
+    font-size: 19px;
+    border-radius: 10px; 
+    padding: 6px;
+    color: white;
+    background-color: black;
+}
+#password:hover{
+ padding: 7px;
+ border: 2px solid white;
+}
+
+
+#btn{
+    font-size: 28px;
+    border-radius: 35px;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    font-family:sans-serif;
+}
+#btn:hover{
+    background-color: rgb(7, 7, 7);
+    color: rgb(250, 243, 243);
+    padding: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.username{
+    margin: 30px 60px;
+
+}
+.password{
+    margin: 30px 60px;
+}
+.btn{
+    margin: 30px 115px;
+    width: 50%;
+    height: 50%;
+}
+/* #social{
+    border: 2px solid white;
+    margin: 10px 100px;
+    border-radius: 10px;
+
+} */
+/* #fb{
+    width: 60px;
+    height: 60px;
+}
+#tweeter{
+     width:60px;
+     height:60px;
+}
+#linkedin{
+    width:60px;
+    height: 60px;
+} */
