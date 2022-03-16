@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: linear-gradient(rgb(17, 17, 80),rgb(190, 188, 188),rgb(29, 29, 109));
+}
+.box{
+    border: 2px solid black;
+    width: 350px;
+    height: 530px;
+    margin: 95px 590px;
+    padding: 12px;
+    background-color: rgb(46, 46, 48);
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 10px 10px 10px 5px black;
+}
+.box:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 5px black;
+    border: 2px solid black;
+}
+.login{
+    padding: 25px;
+    text-align: center;
+    color: white;
+
+}
+.login h1{
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: black;
+    padding: 5px;
+    /* box-shadow: inset 2px 2px 4px 2px white; */
+}
+.login h1:hover{
+    cursor: pointer;
+    box-shadow: inset 1px 1px 1px 1px white;
+}
+.username{
+    padding: 18px;
+    margin-left: 40px;
+}
+.password{
+     padding: 18px;
+     margin-left: 40px;
+}
+.forget{
+    padding: 20px;
+    margin-left: 95px;
+    color: white;
+}
+.forget:hover{
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn{
+    padding: 18px;
+    margin-left: 100px;
+    margin-right: 110px;
+}
+#btn{
+    font-size: 26px;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px groove white;
+    box-shadow: inset 5px 5px 10px black;
+}
+#btn:hover{
+    font-size: 27px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    box-shadow: inset 1px 1px 1px 1px white;
+}
+#username{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+#username:hover{
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+#password:hover{
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+#password{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.social{
+    padding: 23px;;
+    margin-left: 40px;
+}
+#socialf{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow: inset 1px 1px 10px white;
+}
+#socialt{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow:inset  1px 1px 10px white;
+}
+#socialf:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px white;
+    border: 2px solid black;
+
+}
+#sociall{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow:inset 1px 1px 10px white;
+}
+#socialt:hover{
+   cursor: pointer;
+    box-shadow: 2px 2px 2px white;
+    border: 2px solid black;
+}
+#sociall:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px white;
+    border: 2px solid black;
+}
